@@ -1,7 +1,7 @@
 
     # README.md
 
-    ![Badge](https://img.shields.io/npm/v/badges.svg)
+    ![Badge](https://camo.githubusercontent.com/82b2f7443729102e299eda8a94d3b781c75d1ab4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6a6176617363726970742d3130302532352d626c7565)
 
     ## Description
     undefined
@@ -16,16 +16,16 @@
 * [Questions](#questions)
 
     ### Installation
-    npm i,user also needs to download the source code and use the cooman node index.js
+    As a command line script the user would need to install node.js,run npm install,and run the test
 
     ### Usage
-    The user will be prompted with questions.The answers will then be used to populate areas in a README file using markdown language
+    The user will be prompted with questions . The answers will then be used to populate to create the ReadMe using markdown language.
 
     ### Credits
     No
 
     ### License
-    MIT License
+    MIT Licensed
 
     ### Tests
     undefined

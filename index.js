@@ -100,7 +100,7 @@ promptUser()
       console.log(err);
   })
 
-//function for rendering badges
+// //function for rendering badges
 function renderBadges(badge) {
     const badgeArr = badge.split(',');
     let badgeTemplate = '';

@@ -2,12 +2,12 @@ function generateMarkdown(answers, badges, response) {
     return `
     # ${answers.title}
 
-    ${badges}
+    ![Badge](${answers.badges})
 
     ## Description
     ${answers.descripton}
 
-    ## Table of Contents
+    ### Table of Contents
     ${answers.contents.join('\n')}
 
     ### Installation
