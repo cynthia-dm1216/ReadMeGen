@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/cynthia-dm1216/ReadMeGen/issues"
   },
-  "homepage": "https://github.com/cynthia-dm1216/ReadMeGen#readme"
+  "homepage": "https://github.com/cynthia-dm1216/ReadMeGen#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "inquirer": "^7.1.0"
+  }
 }

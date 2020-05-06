@@ -6,9 +6,9 @@ const api = {
         const queryUrl = `https://api.github.com/users/${username}`;
 
         return axios.get(queryUrl)
-        .then(function(response) {
-            return response;
-        });
+            .then(function (response) {
+                return response;
+            });
     }
 }
 

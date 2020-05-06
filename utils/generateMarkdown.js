@@ -1,8 +1,8 @@
-function generateMarkdown(answers, response) {
+function generateMarkdown(answers, badges, response) {
     return `
     # ${answers.title}
 
-    ![badge](${answers.badge})
+    ${badges}
 
     ## Description
     ${answers.descripton}
@@ -26,8 +26,11 @@ function generateMarkdown(answers, response) {
     ${answers.tests}
 
     ### Questions
-    ![GitHub profile image](${response.data.avatar_url}=100x100)\n
-    email= ${response.data.email}
+    You may adress any questions to the author below:
+
+    Name: __${response.data.name}__
+    GitHub: [${response.data.login}](https://github.com/${response.data.login})  
+    ![Image of Me](${response.data.avatar_url})
 
     `;
 }
