@@ -2,7 +2,7 @@ function generateMarkdown(answers, badges, response) {
     return `
     # ${answers.title}
 
-    ![Badge](${answers.badges})
+    ${badges}
 
     ## Description
     ${answers.descripton}

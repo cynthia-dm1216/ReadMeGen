@@ -1,40 +1,50 @@
+# Unit 09 Node.js and ES6+ Homework: Good README Generator
 
-    # README.md
+Create a command-line application that dynamically generates a README.md from a user's input. The application will be invoked with the following command:
 
-    ![Badge](https://camo.githubusercontent.com/82b2f7443729102e299eda8a94d3b781c75d1ab4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6a6176617363726970742d3130302532352d626c7565)
+```sh
+node index.js
+```
 
-    ## Description
-    undefined
+The user will be prompted for their GitHub username, which will be used to make a call to the GitHub API to retrieve their email and profile image. They will then be prompted with questions about their project.
 
-    ## Table of Contents
-    * [Installation](#installation)
-* [Usage](#usage)
-* [Credits](#credits)
-* [License](#license)
-* [Badges](#badges)
-* [Tests](#tests)
-* [Questions](#questions)
+### Completed
 
-    ### Installation
-    As a command line script the user would need to install node.js,run npm install,and run the test
+* The generated README includes the following sections: 
+  * Title
+  * Description
+  * Table of Contents
+  * Installation
+  * Usage
+  * License
+  * Contributing
+  * Tests
+  * Questions
 
-    ### Usage
-    The user will be prompted with questions . The answers will then be used to populate to create the ReadMe using markdown language.
+* The generated README includes 1 badge that's specific to the repository.
 
-    ### Credits
-    No
+## User Story
+```
+AS A developer
 
-    ### License
-    MIT Licensed
+I WANT a README generator
 
-    ### Tests
-    undefined
+SO THAT I can easily put together a good README for a new project
+```
 
-    ### Questions
-    You may adress any questions to the author below:
+## Acceptance Criteria
+```
+GIVEN the developer has a GitHub profile and a repository
 
-    Name: __Cynthia Dominguez__
-    GitHub: [cynthia-dm1216](https://github.com/cynthia-dm1216)  
-    ![Image of Me](https://avatars1.githubusercontent.com/u/60992830?v=4)
+WHEN prompted for the developer's GitHub username and repo specific information
 
-    
+THEN a README for the repo is generated
+```
+- - -
+
+
+## README Gif
+![video](/readmeGif.gif)
+
+- - -
+© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
